@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae de Alan Correa</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            overflow: hidden;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #2980b9;
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 15px;
+            color: #555;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            background-color: #ecf0f1;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .contact p {
+            margin: 5px 0;
+        }
+
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 15px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
+            p, li {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Curriculum Vitae de Alan Correa</h1>
+        
+        <section>
+            <h2>Información Personal</h2>
+            <p>Mi nombre completo es Alan Giovanni Correa Gauto. Tengo 19 años y actualmente estoy estudiando la carrera de Ingeniería en Sistemas.</p>
+        </section>
+        
+        <section>
+            <h2>Experiencia Laboral</h2>
+            <p>Tengo experiencia en el ámbito de atención al cliente, donde actualmente trabajo en un negocio familiar, gestionando ventas y la satisfacción de los clientes.</p>
+        </section>
+        
+        <section>
+            <h2>Educación</h2>
+            <p>Realicé mis estudios primarios en la escuela Santa Catalina Lanouré, y del octavo grado hasta el primer año en el Colegio Nacional Vicepresidente Sánchez, donde inicié el bachillerato en informática. Mis dos últimos años los completé en el Colegio Nacional de Comercio Número 2 Prudencio Vidal Zelaya. Además, he realizado los siguientes cursos:</p>
+            <ul>
+                <li>Ofimática</li>
+                <li>Fotografía</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2>Habilidades</h2>
+            <p>Mis principales habilidades incluyen:</p>
+            <ul>
+                <li>Trabajo en equipo y colaboración efectiva</li>
+                <li>Capacidad de adaptación y aprendizaje rápido</li>
+                <li>Entusiasmo por la programación y desarrollo de software</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contacto</h2>
+            <p><strong>Correo electrónico:</strong> <a href="mailto:correaalan941@gmail.com">correaalan941@gmail.com</a></p>
+            <p><strong>Número de teléfono:</strong> 0981929796</p>
+        </section>
+    </div>
+</body>
+</html>
